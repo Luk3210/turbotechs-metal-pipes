@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "metal-pipes",
+	"version": "${version}",
+	"name": "TurboTech's Metal Pipes",
+	"description": "Troll your friends by surprising them!",
+	"authors": [
+		"TurboTech"
+	],
+	"contact": {
+		"homepage": "https://github.com/Luk3210/turbotechs-metal-pipes",
+		"issues": "https://github.com/Luk3210/turbotechs-metal-pipes/issues"
+	},
+	"license": "GPLv3",
+	"icon": "assets/metal-pipes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"turbotech.metal_pipes.MetalPipes"
+		],
+		"fabric-datagen": [
+			"turbotech.metal_pipes.MetalPipesDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

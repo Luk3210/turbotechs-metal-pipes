@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "metal-pipes:item/metal_pipe"
+  }
+}

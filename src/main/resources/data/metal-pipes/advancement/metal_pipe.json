@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": ["metal-pipes:metal_pipe"]
+				}
+			}
+		}
+	},
+	"rewards": { "function": "metal-pipes:use_pipe" }
+}

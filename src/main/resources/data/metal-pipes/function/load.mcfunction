@@ -1,0 +1,1 @@
+scoreboard objectives add metalpipe_cooldown dummy

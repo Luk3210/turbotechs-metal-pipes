@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Right click events for TurboTech's metal pipes mod",
+    "min_format": [89,0],
+    "max_format": [107,1]
+  }
+}
